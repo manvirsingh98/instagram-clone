@@ -135,7 +135,11 @@ function App() {
               <Button onClick={() => auth.signOut()}>Logout</Button>
 
       ): (
+        <div className="app__loginContainer">
         <Button onClick={() => setOpen(true)}>Sign up</Button>
+        <Button onClick={() => setOpen(true)}>Sign up</Button>
+
+        </div>
 
       )}
 
