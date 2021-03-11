@@ -159,7 +159,7 @@ function App() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
-            <Button onClick={signIn}>Sign In</Button>
+            <Button onClick={signIn}>Sign Innnnnn</Button>
           </form>
         </div>
       </Modal>
@@ -171,7 +171,7 @@ function App() {
           alt=""
         />
         {user ? (
-          <Button onClick={() => auth.signOut()}>Logout----</Button>
+          <Button onClick={() => auth.signOut()}>Logout</Button>
         ) : (
           <div className="app__loginContainer">
             <Button onClick={() => setOpenSignIn(true)}>Sign in</Button>
